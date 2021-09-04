@@ -22,6 +22,7 @@ spring:
     schemas: gift
     url: jdbc:mysql://localhost:13306/gift?serverTimezone=UTC&characterEncoding=UTF-8
     enabled: true
+    baselineOnMigrate: true
 
 logging:
   config: classpath:logback-local.xml
