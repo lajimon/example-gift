@@ -21,7 +21,7 @@ spec:
         app: example-gift
     spec:
       containers:
-      - image: 734268896595.dkr.ecr.ap-northeast-2.amazonaws.com/example-gift:latest
+      - image: 734268896595.dkr.ecr.ap-northeast-2.amazonaws.com/example-gift:v1
         imagePullPolicy: Always
         name: example-gift
         command: 
