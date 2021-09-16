@@ -6,7 +6,7 @@ metadata:
     app: example-gift
   namespace: aws-ttt-3
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: example-gift
